@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+</head>
+<body>
+    <div class="caja">
+        <h1 class="texto"> Registro </h1>
+        <form action="">
+            <input type="text" name="nombre" id="nombre" class="cajatexto">
+            <input type="text" name="apellidos" id="apellidos" class="cajatexto">
+            <label for="fecha">fecha de nacimiento</label> <input type="date" name="fecha" id="fecha" class="cajatexto">
+            <button onclick="recuperar ();" class="btn"> registrar</button>
+        </form>
+    </div> 
+    <script>
+        function recuperar (){
+            var nom =document.getElementById("nombre").value;
+            alert("hola:"+nom);
+            
+            }
+        
+    </script>
+
+    
+    
+</body>
+</html>
